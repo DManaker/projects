@@ -14,4 +14,6 @@ With Know and KARE, we'd integrate user profiles through single sign on capabili
 
 Between NASTi and KARE, the solution was to sync user experiences such as shift posting, user management, and permission management between the two platforms. To ensure users could navigate betweeen platforms, we had to work with our engineers to architect a federation that allowed users to transition from one platform to the other, but had the applications retain permission sets that could be transmissable across platforms so that users were not being able to access unauthorized features.
 
-#
+## Results and Impact
+By working together on our platform integration, the NASTi team was able to get a pilot signup of >60 buildings. This ensured a good foundation for continued iteration and learning. It also helped drive shifts into our core marketplace platform resulting in modest revenue increases.
+
