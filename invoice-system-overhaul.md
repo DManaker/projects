@@ -1,19 +1,23 @@
 # Financial Infrastructure & Revenue Recovery System
 
 ## Problem
-At KARE, the invoicing and payment infrastructure was a significant bottleneck to scaling, characterized by three critical failure points:
-* Sending invoices and collecting payments were done through a third-party via snail mail resulting in antiquated payment methods.
-* Due to the nature of our business and billing, we effectively fronted money and relied on payment second, leading to some delinquent payors being taken to court for non-payments and breach of contract, resulting in hundreds of thousands of legal fees.
-* Our invoice system had a split source-of-truth, being shared between our marketplace app (KARE) and Quickbooks, leading to friction in business logic, damaging long-term customer retention rates.
+
+At KARE, the invoicing and payment infrastructure was a significant bottleneck to scaling. It was causing customer churn, downstream costs, and internal operational friction. There were three critical failure points:
+* **Manual & Antiquated Latency:** Reliance on third-party snail mail for billing delayed cash flow and created a poor digital experience for a modern marketplace.
+* **High-Stakes Financial Exposure:** The business model required "fronting" labor costs. Without automated guardrails, delinquent payers accumulated massive debt, leading to hundreds of thousands in legal fees and bad debt write-offs.
+* **The "Split-Brain" Problem:** A fragmented source of truth between the KARE Marketplace and QuickBooks caused logic conflicts, resulting in billing discrepancies that frustrated customers and increased churn.
 
 ## Solution
-* Create an interface that supported a digital payment system through our company bank.
-* Work cross functionally with the finance team to establish something called a "Credit Limit," proactively notifying internal and external users that were close to reaching their limit established by our finance team prior to onboarding reducing the risk of delinquent payments and court fees.
-* Create a system where finance team members could go into our marketplace app on the staff portal and dictate business logic rules based on invoice lapses, like delaying the cancellation of open shifts or outright suspending a community who may have not been a repeat offender and was offered some grace period.
-* Create an internal tool where the finance team could manage invoice changes bi-directionally and API could handle the update requests so that the Quickbooks and Marketplace apps were aligned.
+
+I led a cross-functional overhaul to transform our billing from a reactive back-office system into a proactive product feature:
+* **Digital Payment Integration:** Architected a direct-to-bank digital payment interface, moving the platform away from manual mail-in cycles to real-time reconciliation.
+* **The "Credit Limit" Engine:** Generated a proactive risk-mitigation system that tracked real-time liability against pre-approved credit ceilings, triggering automated warnings to both users and internal finance teams before exposure became critical.
+* **Dynamic Business Logic Controls:** Created a "Financial Governance" suite for internal teams, allowing them to override rigid suspension rules with "Grace Periods" or "Shift Delays" based on customer health scores and payment history.
+* **Bi-Directional API Sync:** Productized an internal synchronization tool that leveraged APIs to ensure 1:1 data parity between our marketplace and QuickBooks, eliminating manual database manipulations.
 
 ## Impact & Results
-* Allowed customers to have more streamlined payment systems, reducing late deliveries and delinquent payments.
-* Helped our finance team be proactive in monitoring company activity and stopping risky partners from going past their allotted credit limits and risking failed payments and numerous court costs to reclaim payments.
-* Maintain customer satisfaction with good partners that may deserve grace periods to due lapses in payment and prevent attrition.
-* Allowed internal teams the flexibility of making changes without the need for IT support help and numerous database manipulation techniques to align source of truth systems.
+
+* **Risk Mitigation:** Drastically reduced the need for legal intervention and court costs by preventing high-risk partners from exceeding credit limits in real-time.
+* **Operational Efficiency:** Empowered the Finance team to manage complex invoice adjustments independently, removing the dependency on IT/Engineering for database fixes.
+* **Improved Retention:** Increased customer satisfaction by providing a modern payment UI and reducing impactful account suspensions through flexible, logic-based grace periods.
+* **Revenue Velocity:** Accelerated the "Quote-to-Cash" cycle by digitizing the end-to-end payment flow, improving company liquidity.
