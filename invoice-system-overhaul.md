@@ -1,13 +1,13 @@
 # Financial Infrastructure & Revenue Recovery System
 
-## Problem
+## ✖️ Problem
 
 At KARE, the invoicing and payment infrastructure was a significant bottleneck to scaling. It was causing customer churn, downstream costs, and internal operational friction. There were three critical failure points:
 * **Manual & Antiquated Latency:** Reliance on third-party snail mail for billing delayed cash flow and created a poor digital experience for a modern marketplace.
 * **High-Stakes Financial Exposure:** The business model required "fronting" labor costs. Without automated guardrails, delinquent payers accumulated massive debt, leading to hundreds of thousands in legal fees and bad debt write-offs.
 * **The "Split-Brain" Problem:** A fragmented source of truth between the KARE Marketplace and QuickBooks caused logic conflicts, resulting in billing discrepancies that frustrated customers and increased churn.
 
-## Solution
+## 💡 Solution
 
 I led a cross-functional overhaul to transform our billing from a reactive back-office system into a proactive product feature:
 * **Digital Payment Integration:** Architected a direct-to-bank digital payment interface, moving the platform away from manual mail-in cycles to real-time reconciliation.
@@ -15,7 +15,7 @@ I led a cross-functional overhaul to transform our billing from a reactive back-
 * **Dynamic Business Logic Controls:** Created a "Financial Governance" suite for internal teams, allowing them to override rigid suspension rules with "Grace Periods" or "Shift Delays" based on customer health scores and payment history.
 * **Bi-Directional API Sync:** Productized an internal synchronization tool that leveraged APIs to ensure 1:1 data parity between our marketplace and QuickBooks, eliminating manual database manipulations.
 
-## Impact & Results
+## 💥 Impact & Results
 
 * **Risk Mitigation:** Drastically reduced the need for legal intervention and court costs by preventing high-risk partners from exceeding credit limits in real-time.
 * **Operational Efficiency:** Empowered the Finance team to manage complex invoice adjustments independently, removing the dependency on IT/Engineering for database fixes.
