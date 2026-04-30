@@ -1,6 +1,6 @@
 # Cross Functional Platform Integrations & Ecosystem Development
 
-## Problem
+## ✖️ Problem
 KARE decided to make a strategic pivot to expand into adjacent senior care segments by introducing three new platforms:
 * **NASTi** - A scheduling platform and operations tool for senior care operators
 * **Know** - A professional social network for caregivers and nurses
@@ -13,7 +13,7 @@ The original marketplace was not designed to support a multi-product ecosystem. 
 
 The risk was clear - launching new products added increased complexity instead of compounding value.
 
-## Solution
+## 💡 Solution
 I led the product integration strategy to remove architectural blockers that prevented scale in both acquisition and support.
 
 This included:
@@ -36,7 +36,7 @@ This included:
 * Ensured users retained correct access levels without introducing security gaps or duplicated configuration
 
 
-## Results and Impact
+## 💥 Results and Impact
 
 * Unblocked customer acquisition by removing cross-platform onboarding friction, enabling Know’s successful launch
 * More than doubled daily caregiver signups compared to baseline marketplace acquisition rates
