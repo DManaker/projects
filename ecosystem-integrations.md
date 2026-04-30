@@ -1,4 +1,4 @@
-# Cross Functional Platform Integrations and Ecosystem Development
+# Cross Functional Platform Integrations & Ecosystem Development
 
 ## Problem
 KARE decided to make a strategic pivot to expand into adjacent senior care segments by introducing three new platforms:
