@@ -13,6 +13,7 @@ I owned the design and rollout of standardized onboarding workflows to reduce va
 * Creating template‑driven onboarding workflows and diagrams for company‑wide reference
 * Defining key onboarding events and implementing automated, event‑triggered communications to ensure consistent touchpoints
 * Developing directional guides and enablement materials to support training, handoffs, and new‑hire ramp
+* Implementing scheduling software to assist in booking meetings quickly and efficiently
 
 The goal was not just documentation, but a shared operating model that allowed teams to deliver a consistent experience while still iterating based on feedback and performance data.
 
