@@ -32,3 +32,4 @@ My ownership included:
 * Reduced post‑onboarding drop‑off by 45%, signaling improved early user experience
 * Increased average customer lifetime by ~1 additional month
 * Decreased technical support inquiries by 30%+, reducing operational load
+* Unblocked faster feature iteration post-migration by reducing platform instability
