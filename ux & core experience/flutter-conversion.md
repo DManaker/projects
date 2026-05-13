@@ -29,7 +29,7 @@ My ownership included:
 
 ## 💥 Impacts & Results
 * App store ratings improved to 4.5+, up from the mid‑3 range, strengthening acquisition and brand trust
-* Reduced post‑onboarding drop‑off by 45%, signaling improved early user experience
+* Reduced post‑onboarding drop‑off, signaling improved early user experience
 * Increased average customer lifetime by ~1 additional month
-* Decreased technical support inquiries by 30%+, reducing operational load
+* Decreased technical support inquiries, reducing operational load
 * Unblocked faster feature iteration post-migration by reducing platform instability
